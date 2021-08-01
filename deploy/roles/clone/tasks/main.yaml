@@ -1,0 +1,7 @@
+---
+  - name: Clone a github repository
+    git:
+      repo: git@github.com:nejtr0n/node-js-getting-started.git
+      dest: "{{ build_dest }}"
+      clone: yes
+      update: yes

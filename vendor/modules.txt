@@ -1,0 +1,11 @@
+# github.com/elastic/go-elasticsearch/v8 v8.0.0-20210809153508-e57702f714d6
+## explicit
+github.com/elastic/go-elasticsearch/v8
+github.com/elastic/go-elasticsearch/v8/esapi
+github.com/elastic/go-elasticsearch/v8/estransport
+github.com/elastic/go-elasticsearch/v8/internal/version
+# github.com/lib/pq v1.10.2
+## explicit
+github.com/lib/pq
+github.com/lib/pq/oid
+github.com/lib/pq/scram

@@ -1,0 +1,4 @@
+---
+build_folder: "build"
+build_tag: "{{ ansible_date_time.date }}"
+build_dest: "{{ build_folder }}/{{ build_tag }}"

@@ -1,0 +1,15 @@
+---
+- name: Log into private registry and force re-authorization
+  community.docker.docker_login:
+    registry_url: 172.17.0.1:8123
+    username: admin
+    password: 4d7b88d4-e883-4215-84c6-c3f3131adac7
+
+- name: Push image to registry
+  community.docker.docker_image:
+    name: "node-js-getting-started:{{ build_tag }}"
+    repository: "172.17.0.1:8123/repository/test/node-js-getting-started:{{ build_tag }}"
+    push: yes
+    source: local
+    validate_certs: no
+    debug: yes

@@ -1,0 +1,8 @@
+---
+- name: "start application as a daemon"
+  docker_container:
+    name: "node-js-getting-started-{{ build_tag }}"
+    image: "node-js-getting-started:{{ build_tag }}"
+    state: started
+    detach: yes
+

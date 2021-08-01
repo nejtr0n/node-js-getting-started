@@ -1,0 +1,4 @@
+github.com/elastic/go-elasticsearch/v8 v8.0.0-20210809153508-e57702f714d6 h1:31y865ZKzF8+JEoibAH32gilYveF/mI0PF/z1fKtrf8=
+github.com/elastic/go-elasticsearch/v8 v8.0.0-20210809153508-e57702f714d6/go.mod h1:xe9a/L2aeOgFKKgrO3ibQTnMdpAeL0GC+5/HpGScSa4=
+github.com/lib/pq v1.10.2 h1:AqzbZs4ZoCBp+GtejcpCpcxM3zlSMx29dXbUSeVtJb8=
+github.com/lib/pq v1.10.2/go.mod h1:AlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=

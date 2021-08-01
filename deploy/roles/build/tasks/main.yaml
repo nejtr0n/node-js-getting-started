@@ -1,0 +1,10 @@
+---
+- name: "Build docker image"
+  community.docker.docker_image:
+    name: node-js-getting-started
+    build:
+      path: "{{ build_dest }}"
+      pull: no
+    tag: "{{ build_tag }}"
+    source: build
+    state: present

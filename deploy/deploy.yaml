@@ -1,0 +1,11 @@
+---
+- name: Build project
+  hosts: local
+
+  roles:
+    - clone
+    - build
+    - test
+    - push
+    - start
+
